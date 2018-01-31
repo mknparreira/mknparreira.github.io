@@ -21,15 +21,15 @@ Imagina a seguinte situação: Existem 3 preços praticados para venda de pipoca
 ### Injeção de dependência
 <p> Em breve... </p>
 <h3>Facade</h3>
-<p> Em breve... </p>
-<h3>Fluent Interface</h3>
-<p> Os métodos são nomeados com o intuito de deixar a chamada mais intuitiva.</p>
-<p>Muito utilizado para a criação de APIs onde há métodos encadeados. Outro exemplo de uso, seria uma QueryBuilder de SQL onde os atributos são encadeados. Exemplo: →where()→limit() Outro exemplo: QueryBuilder para classe de disparo de e-mail: new Email()->from()->to()->subject()..</p>
-<h3>Flywight</h3>
-<p> Em breve... </p>
-<h3>Proxy</h3>
-<p> Em breve... </p>
-<h3>Registry</h3>
+Em breve...
+### Fluent Interface
+Os métodos são nomeados com o intuito de deixar a chamada mais intuitiva.
+Muito utilizado para a criação de APIs onde há métodos encadeados. Outro exemplo de uso, seria uma QueryBuilder de SQL onde os atributos são encadeados. Exemplo: →where()→limit() Outro exemplo: QueryBuilder para classe de disparo de e-mail: new Email()->from()->to()->subject()..
+### Flywight
+Em breve
+### Proxy
+Em breve...
+### Registry
 Em breve...
 ## Behavioral Patterns
 “In software engineering, behavioral, design patterns that identify common communication patterns between objects and realize these patterns. By doing so, these patterns increase flexibility in carrying out this communication”.
