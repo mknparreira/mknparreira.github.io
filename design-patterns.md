@@ -78,15 +78,13 @@
 <h3>Visitor</h3>
 <p> Em breve... </p>
 <h2> References </h2>
-<p><a href="http://br.phptherightway.com/pages/Design-Patterns.html">http://br.phptherightway.com/pages/Design-Patterns.html</a></p>
+<p>http://br.phptherightway.com/pages/Design-Patterns.html</p>
 <p>http://designpatternsphp.readthedocs.io/pt_BR/latest/README.html</p>
-<p><a href=""></a></p>
-<p><a href=""></a></p>
-<p><a href=""></a></p>
-<p><a href=""></a></p>
-<p><a href=""></a></p>
-<p><a href=""></a></p>
-<p><a href=""></a></p>
-<p><a href=""></a></p>
-<p><a href=""></a></p>
+<p>https://ocramius.github.io/blog/fluent-interfaces-are-evil/</p>
+<p>https://pt.wikipedia.org/wiki/Chain_of_Responsibility</p>
+<p>http://www.phplab.info/categories/design-pattern/template-method-pattern</p>
+<p>http://www.phplab.info/categories/design-pattern/adapter-pattern</p>
+<p>https://www.devmedia.com.br/design-patterns-aplicando-os-padroes-builder-singleton-e-prototype/31023</p>
+<p>https://github.com/kamranahmedse/design-patterns-for-humans</p>
+<p>https://pt.stackoverflow.com/questions/106955/o-que-%c3%a9-fluent-interface</p>
 
