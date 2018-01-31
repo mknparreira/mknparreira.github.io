@@ -77,5 +77,16 @@
 <p> Em breve... </p>
 <h3>Visitor</h3>
 <p> Em breve... </p>
-
+<h2> References </h2>
+<p><a href="http://br.phptherightway.com/pages/Design-Patterns.html">http://br.phptherightway.com/pages/Design-Patterns.html</a></p>
+<p>http://designpatternsphp.readthedocs.io/pt_BR/latest/README.html</p>
+<p><a href=""></a></p>
+<p><a href=""></a></p>
+<p><a href=""></a></p>
+<p><a href=""></a></p>
+<p><a href=""></a></p>
+<p><a href=""></a></p>
+<p><a href=""></a></p>
+<p><a href=""></a></p>
+<p><a href=""></a></p>
 
