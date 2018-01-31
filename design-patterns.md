@@ -80,6 +80,7 @@ Exemplos de implementação:
   * Recebeu uma informação da rede
   * Um objeto visual do jogo se encontrou com outro objeto (acertou o alvo)
   * Uma atualização no banco de dados ocorreu
+ 
 ### Proxy
 Em breve...
 
