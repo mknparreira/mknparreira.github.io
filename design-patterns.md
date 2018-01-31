@@ -90,13 +90,15 @@ Em breve...
 Em breve...
 
 ### Strategy
-Encapsula famílias específicas de algoritimos permitindo com que a classe cliente responsável por instanciar esse algoritimo em particular não necessite de conhecimento sobre sua implementação atual. </p>
-<p>Através do encapsulamento do algoritimo, faz com que seu código de forma limpa e clara para que outros desenvolvedores possam facilmente adicionar novos tipos de saída sem que isso afete o código cliente.
+Encapsula famílias específicas de algoritimos permitindo com que a classe cliente responsável por instanciar esse algoritimo em particular não necessite de conhecimento sobre sua implementação atual.
+Através do encapsulamento do algoritimo, faz com que seu código de forma limpa e clara para que outros desenvolvedores possam facilmente adicionar novos tipos de saída sem que isso afete o código cliente.
 
 ### Template Method
 Em breve...
+
 ### Visitor
 Em breve...
+
 ## References
 * [PHP Right Way](http://br.phptherightway.com/pages/Design-Patterns.html)
 * [Design Patterns PHP](http://designpatternsphp.readthedocs.io/pt_BR/latest/README.html)
