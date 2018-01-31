@@ -88,3 +88,7 @@
 <p>https://github.com/kamranahmedse/design-patterns-for-humans</p>
 <p>https://pt.stackoverflow.com/questions/106955/o-que-%c3%a9-fluent-interface</p>
 
+* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
+* [Maven](https://maven.apache.org/) - Dependency Management
+* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
+
