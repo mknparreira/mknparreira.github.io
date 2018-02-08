@@ -108,9 +108,10 @@ Em breve...
 * [PHP Lab](http://www.phplab.info/categories/design-pattern/template-method-pattern) - Template Method
 * [PHP Lab](http://www.phplab.info/categories/design-pattern/adapter-pattern) - Adapter
 * [Devmedia](https://www.devmedia.com.br/design-patterns-aplicando-os-padroes-builder-singleton-e-prototype/31023) - Builder & Singleton
-* [kamranahmedse](https://github.com/kamranahmedse/design-patterns-for-humans) - Best examples
+* [kamranahmedse](https://github.com/kamranahmedse/design-patterns-for-humans) - Best examples | For dummies
 * [Stackoverflow](https://pt.stackoverflow.com/questions/106955/o-que-%c3%a9-fluent-interface) - Fluent interfaces
-
+* [Injeção de dependência](http://fabien.potencier.org/what-is-dependency-injection.html) - 
+* [Composite](https://stackoverflow.com/questions/30136414/composite-pattern-and-dependency-injection) - 
 
 
 
