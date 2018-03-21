@@ -4,10 +4,13 @@
 > “In software engineering, creational design patterns are design patterns that deal with object creation mechanisms, trying to create objects in a manner suitable to the situation. The basic form of object creation could result in design problems or added complexity to the design. Creational design patterns solve this problem by somehow controlling this object creation”.
 
 ### Builder
+Separates object construction from its representation.
 Similar a Factory e Multition, com a diferença de que, nesse padrão, ele não apenas cria objetos, mas os prepara para o restante da aplicação. Ou seja, Builder define os passos para a criação de um objeto.
 
 ### Factory
 Benefícios:
+Creates an instance of several derived classes.
+
 * Se precisar mudar, renomear ou substituir a classe Automobile futuramente você pode fazer e só terá que modificar o código na “Factory”, em vez de em todos os lugares do seu projeto onde você usa a classe Automobile.
 * Caso a criação do objeto seja um processo complicado, você pode executar todo esse trabalho na factory, em vez de repetí-lo toda vez que precisar criar uma nova instância da classe.
 Usar o padrão de “Factory” não é sempre necessário. As vezes, a “Factory” acaba adicionando complexidade indesejada. Entretanto se você estiver realizando um projeto um pouco maior ou mais complexo você pode se salvar de muitos problemas com o uso do padrão “Factory”.
@@ -15,11 +18,16 @@ Usar o padrão de “Factory” não é sempre necessário. As vezes, a “Facto
 ## Structural Patterns
 > “In Software Engineering, Structural Design Patterns are Design Patterns that ease the design by identifying a simple way to realize relationships between entities”.
 
+### Adapter
+Match interfaces of different classes
+
 ### Bridge
+Separates an object’s interface from its implementation.
 Padrão extremamente utilizado para criação de temas. Imagine um site com uma quantidade de páginas onde o tema (ex: dark, green, blue) pode ser escolhido. Outro exemplo, seria uma N dispositivos utilizando N serviços de mensagem.
 A ideia desse padrão seria em fazer uma ponte entre classes do tipo N->N.
 
 ### Composite
+A tree structure of simple and composite objects.
 Em breve...
 
 ### Decorator
@@ -29,10 +37,8 @@ Imagina a seguinte situação: Existem 3 preços praticados para venda de pipoca
 
 Importante ressaltar que o acoplamento entre classes é alta.
 
-### Injeção de dependência
-Em breve..
-
 ### Facade
+A single class that represents an entire subsystem.
 Usado quando um sistema é muito complexo ou difícil de entender, já que possui um grande número de classes independentes ou se trechos de código fonte estão indisponíveis. Este padrão esconde as complexidades de um sistema maior e provê uma interface simplificada
 
 Um bom exemplo, seria um jogo. Na classe principal teria o método atirar e correr. Na classe facade, um function p/ o botão B, por exemplo, onde ele correria e atiraria ao mesmo tempo.
@@ -74,6 +80,7 @@ A classe principal contém todos os comportamentos. A classe facade contém os g
 ```
 
 ### Fluent Interface
+A fine-grained instance used for efficient sharing.
 Os métodos são nomeados com o intuito de deixar a chamada mais intuitiva.
 Muito utilizado para a criação de APIs onde há métodos encadeados. Outro exemplo de uso, seria uma QueryBuilder de SQL onde os atributos são encadeados. Exemplo: →where()→limit()
 Outro exemplo: QueryBuilder para classe de disparo de e-mail: new Email()->from()->to()->subject()..
@@ -82,6 +89,7 @@ Outro exemplo: QueryBuilder para classe de disparo de e-mail: new Email()->from(
 Em breve
 
 ### Proxy
+An object representing another object.
 Em breve...
 
 ### Registry
@@ -91,6 +99,7 @@ Em breve...
 > “In software engineering, behavioral, design patterns that identify common communication patterns between objects and realize these patterns. By doing so, these patterns increase flexibility in carrying out this communication”.
 
 ### Chain of responsability
+A way of passing a request between a chain of objects.
 Função de evitar a dependência entre um objeto receptor e um objeto solicitante. Consiste em uma série de objetos receptores e de objetos de solicitação, onde cada objetos de solicitação possui uma lógica interna que separa quais são tipos de objetos receptores que podem ser manipulados. O restante é passado para o próximo objetos de solicitação da cadeia.
 
 Devido à isso, é um padrão que utiliza a ideia de baixo acoplamento por permitir que outros objetos da cadeia tenham a oportunidade de tratar uma solicitação.
@@ -100,21 +109,27 @@ Cai como uma luva quando temos uma lista de comandos a serem executados de acord
 Nesses casos, o Chain of Responsibility nos possibilita a separação de responsabilidades em classes pequenas e enxutas, e ainda provê uma maneira flexível e desacoplada de juntar esses comportamentos novamente.
 
 ### Command
+Encapsulate a command request as an object.
 Em breve...
 
 ### Interpreter
+A way to include language elements in a program.
 O padrão Interpreter é geralmente útil para interpretar DSLs.
 
 ### Interator
+Sequentially access the elements of a collection.
 Em breve...
 
 ### Mediator
+Defines simplified communication between classes.
 Em breve...
 
 ### Memento
+Capture and restore an object's internal state.
 Imagine, no Mind Meister por exemplo, eu colocar um nome na caixa, modificar esse nome e agora eu clico na seta da skol à esquerda para retomar a ultima ação que eu realizei. Isso é o memento. Ele grava o estado do objeto numa classe como uma espécie de “repositório” onde eu posso pegar o estado quando quiser (durante o tempo de execução daquele objeto).
 
 ### Observer
+A way of notifying change to a number of classes.
 Sempre que uma classe precisa saber que uma ação ocorreu ou um estado foi alterado em outra classe (ou nela mesmo).
 
 Basicamente você tem dois agentes, a classe observável (conhecida como Subject) e a observadora.
@@ -138,19 +153,23 @@ Em breve...
 Em breve...
 
 ### State
+Alter an object's behavior when its state changes.
 Em breve...
 
 ### Strategy
+Encapsulates an algorithm inside a class.
 Encapsula famílias específicas de algoritimos permitindo com que a classe cliente responsável por instanciar esse algoritimo em particular não necessite de conhecimento sobre sua implementação atual.
 Através do encapsulamento do algoritimo, faz com que seu código de forma limpa e clara para que outros desenvolvedores possam facilmente adicionar novos tipos de saída sem que isso afete o código cliente.
 
 ### Template Method
+Defer the exact steps of an algorithm to a subclass.
 Em breve...
 
 ### Visitor
+Defines a new operation to a class without change.
 Em breve...
 
-## References
+## References and read it later
 * [PHP Right Way](http://br.phptherightway.com/pages/Design-Patterns.html)
 * [Design Patterns PHP](http://designpatternsphp.readthedocs.io/pt_BR/latest/README.html)
 * [Ocramius](https://ocramius.github.io/blog/fluent-interfaces-are-evil/) - Fluent Influence
@@ -162,6 +181,11 @@ Em breve...
 * [Stackoverflow](https://pt.stackoverflow.com/questions/106955/o-que-%c3%a9-fluent-interface) - Fluent interfaces
 * [Injeção de dependência](http://fabien.potencier.org/what-is-dependency-injection.html) -
 * [Composite](https://stackoverflow.com/questions/30136414/composite-pattern-and-dependency-injection) -
+* [Proxy](https://www.jakowicz.com/proxy-pattern-in-php/) -
+* [Specification](http://marcaube.ca/2015/05/specifications) -
+* [Specification](https://en.wikipedia.org/wiki/Specification_pattern) -
+* [PHP Design Patterns](https://github.com/ezimuel/PHP-design-patterns/) -
+* [JavaScript Design Patterns](http://www.dofactory.com/javascript/design-patterns) -
 
 
 
